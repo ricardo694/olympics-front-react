@@ -1,0 +1,149 @@
+.contenedor_general_CE{
+    background-color: #555555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caja_CE{
+    width: 90%;
+}
+
+/* Encabezado 1 */
+
+.encabezado_1_CE{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272727;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.caja_1_1_CE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img_1_CE{
+    width: 40px;
+}
+
+.titulo_1_CE{
+    font-size: 40px;
+}
+
+.caja_1_2_CE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #141414;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.img_CE{
+    width: 25px;
+}
+
+.titulo_2_CE{
+    font-size: 20px;
+}
+
+
+/* Encabezado 2 */
+
+.encabezado_2_CE{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: white;
+}
+
+.titulo_3_CE{
+    font-size: 35px;
+}
+
+.subcaja_1_CE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* Eventos */
+
+.lista_eventos_CE{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+table{
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: solid 2px black;
+}
+
+.campos{
+    font-weight: 500;
+}
+
+th{
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: 100;
+}
+
+td{
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.caja_2_1_CE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #141414;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: fit-content;
+}
+
+.caja_3_1_CE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #141414;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: fit-content;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}

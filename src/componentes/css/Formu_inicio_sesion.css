@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.contenedor_general_FIS{
+    background-color: #555555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caja_formu_FIS{
+    width: 40%;
+}
+
+.caja_titulo_FIS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 80px;
+    background-color: #141414;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 0px;
+}
+
+.img_FIS{
+    width: 50px;
+}
+
+.titulo_FIS{
+    font-size: 40px;
+    color: white;
+}
+
+.formulario_FIS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 30px;
+}
+
+.label_FIS{
+    font-size: 25px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.input_FIS{
+    font-size: 18px;
+    width: 100%;
+    padding: 10px 20px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #c0c0c0;
+}
+
+.btn_FIS{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #141414;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 0px;
+    margin-top: 20px;
+    cursor: pointer;
+}
